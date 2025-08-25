@@ -5,7 +5,7 @@ Welcome to my personal portfolio! This project showcases my skills, projects, in
 ##  Tech Stack
 - **Frontend:** React, Vite, TypeScript  
 - **Styling:** Tailwind CSS  
-- **Responsive Design:** Works seamlessly on all screen sizes  
+- **Responsive Design:** Works seamlessly on all screen sizes   
 
 ##  Sections
 - **Skills:** My technical skills and expertise  
