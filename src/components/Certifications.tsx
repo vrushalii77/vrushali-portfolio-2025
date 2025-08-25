@@ -27,21 +27,21 @@ const experiences = [
 // 👉 Certifications
 const certifications = [
   {
-    title: "Full Stack Web Development",
-    issuer: "Coursera",
-    date: "Jan 2025",
+    title: "Programming using Java",
+    issuer: "Infosys Springboard",
+    date: "August 2024",
     image: java,
   },
   {
-    title: "Java & Spring Boot Mastery",
-    issuer: "Udemy",
-    date: "Mar 2025",
+    title: "DSA using Java",
+    issuer: "Infosys Springboard",
+    date: "August 2024",
     image: dsa,
   },
   {
-    title: "React & TypeScript Advanced",
-    issuer: "edX",
-    date: "May 2025",
+    title: "Introduction to MERN stack",
+    issuer: "Simplilearn",
+    date: "March 2024",
     image: simplilearn,
   },
 ];
