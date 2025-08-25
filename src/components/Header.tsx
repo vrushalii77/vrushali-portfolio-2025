@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import NeonLayeredButton from "./Button/NeonLayeredButton";
+import resume from "../assets/Vrushali_Jadhav_Resume.pdf";
 
 const Header: React.FC = () => {
   return (
@@ -29,7 +30,7 @@ const Header: React.FC = () => {
         {/* Resume Button & Social Icons */}
         <div className="flex flex-col items-center lg:items-start gap-6 mt-6">
           {/* Neon Button */}
-          <a href="/src/assets/Vrushali_Jadhav_Resume.pdf" download>
+          <a href={resume} download>
             <NeonLayeredButton text="Download Resume" />
           </a>
 

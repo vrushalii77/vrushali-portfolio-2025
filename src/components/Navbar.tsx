@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../assets/logo.png"; // 👈 Replace with your logo path
+import logo from "../assets/logo.png"; //
+import resume from "../assets/Vrushali_Jadhav_Resume.pdf";
 
 const Navbar: React.FC = () => {
   const links = ["Skills", "Projects", "Certifications", "Connect"];
@@ -76,13 +77,14 @@ const Navbar: React.FC = () => {
 
           {/* Extra Button like View Resume */}
           <li className="w-full px-6">
-            <button
-              className="w-full bg-gradient-to-r from-[#38bdf8] via-[#f472b6] to-[#facc15] 
+            <a href={resume} download>
+              <button
+                className="w-full bg-gradient-to-r from-[#38bdf8] via-[#f472b6] to-[#facc15] 
         text-black font-semibold py-2 rounded-xl shadow-md hover:opacity-90 transition"
-              onClick={() => window.open("/resume.pdf", "_blank")}
-            >
-              View Resume
-            </button>
+              >
+                View Resume
+              </button>
+            </a>
           </li>
         </ul>
       </div>
