@@ -67,7 +67,7 @@ const Skills: React.FC = () => {
   return (
     <section
       id="skills"
-      className="py-10 lg:py-24 px-6 md:px-20 text-center relative bg-[#0A0A0A] overflow-hidden"
+      className="scroll-mt-16 py-10 lg:py-24 px-6 md:px-20 text-center relative bg-[#0A0A0A] overflow-hidden"
     >
       {/* Animated gradient background blobs */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-gradient-to-r from-[#38bdf8] via-[#f472b6] to-[#facc15] rounded-full blur-3xl opacity-30 animate-blob"></div>

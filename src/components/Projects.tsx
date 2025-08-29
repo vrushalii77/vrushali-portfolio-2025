@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
   return (
     <section
       id="projects"
-      className="py-10 lg:py-24 px-6 md:px-20 relative bg-[#0B0B0B] overflow-hidden"
+      className="scroll-mt-16 py-10 lg:py-24 px-6 md:px-20 relative bg-[#0B0B0B] overflow-hidden"
     >
       {/* Background glow blobs */}
       <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-r from-[#38bdf8] via-[#f472b6] to-[#facc15] rounded-full blur-[180px] opacity-25 animate-blob"></div>

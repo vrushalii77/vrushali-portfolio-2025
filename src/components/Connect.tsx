@@ -29,7 +29,7 @@ const Connect: React.FC = () => {
   return (
     <section
       id="connect"
-      className="py-10 lg:py-24 px-6 md:px-20 bg-[#0B0B0B] text-center"
+      className="scroll-mt-16 py-10 lg:py-24 px-6 md:px-20 bg-[#0B0B0B] text-center"
     >
       {/* Heading */}
       <h2 className="text-4xl md:text-5xl font-extrabold leading-tight mb-12 bg-gradient-to-r from-[#38bdf8] via-[#f472b6] to-[#facc15] bg-clip-text text-transparent">
