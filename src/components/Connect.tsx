@@ -32,7 +32,7 @@ const Connect: React.FC = () => {
       className="py-10 lg:py-24 px-6 md:px-20 bg-[#0B0B0B] text-center"
     >
       {/* Heading */}
-      <h2 className="text-4xl md:text-5xl font-extrabold mb-16 bg-gradient-to-r from-[#38bdf8] via-[#f472b6] to-[#facc15] bg-clip-text text-transparent">
+      <h2 className="text-4xl md:text-5xl font-extrabold leading-tight mb-12 bg-gradient-to-r from-[#38bdf8] via-[#f472b6] to-[#facc15] bg-clip-text text-transparent">
         Let’s Connect
       </h2>
       <p className="text-gray-300 text-lg sm:text-xl md:text-xl mb-6 max-w-2xl mx-auto">

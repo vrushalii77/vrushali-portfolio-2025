@@ -73,7 +73,7 @@ const Skills: React.FC = () => {
       <div className="absolute top-0 left-0 w-72 h-72 bg-gradient-to-r from-[#38bdf8] via-[#f472b6] to-[#facc15] rounded-full blur-3xl opacity-30 animate-blob"></div>
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-gradient-to-r from-[#f472b6] via-[#4ade80] to-[#38bdf8] rounded-full blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
       {/* Heading */}
-      <h2 className="text-4xl md:text-5xl font-extrabold mb-16 bg-gradient-to-r from-[#38bdf8] via-[#f472b6] to-[#facc15] bg-clip-text text-transparent">
+      <h2 className="text-4xl md:text-5xl font-extrabold mb-12 leading-tight bg-gradient-to-r from-[#38bdf8] via-[#f472b6] to-[#facc15] bg-clip-text text-transparent">
         My Skills
       </h2>
 

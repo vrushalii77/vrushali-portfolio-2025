@@ -53,7 +53,7 @@ const Projects: React.FC = () => {
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-r from-[#6BCB77] via-[#f472b6] to-[#38bdf8] rounded-full blur-[180px] opacity-25 animate-blob animation-delay-2000"></div>
 
       {/* Heading */}
-      <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-16 bg-gradient-to-r from-[#38bdf8] via-[#f472b6] to-[#facc15] bg-clip-text text-transparent">
+      <h2 className="text-4xl md:text-5xl font-extrabold text-center leading-tight mb-12 bg-gradient-to-r from-[#38bdf8] via-[#f472b6] to-[#facc15] bg-clip-text text-transparent">
         Featured Projects
       </h2>
 
